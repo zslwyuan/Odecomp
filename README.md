@@ -23,6 +23,6 @@ fine-tune the model along with the steps of decomposition, to obtain higher accu
 
 The experiments show the significant improvement of accuracy.
 
-<img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/truncate15.png" width="400">
+<img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/truncate15.png" width="400"><img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/truncate10.png" width="400">
 
 (Currently, part of the source code is open to the community, through which reader might be able to get the fundamental idea of Odecomp. This project begins as the course project of ELEC5470 Convex Optimization, HKUST. Thank Prof. Palomar, TA Junyan LIU and TA Ziping ZHAO a lot for their patience and time dedicated into this interesting course.)
