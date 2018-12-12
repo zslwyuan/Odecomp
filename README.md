@@ -27,7 +27,7 @@ tensor decomposition, by penalizing the parts in matrices which will be truncate
 fine-tune the model along with the steps of decomposition, to obtain higher accuracy.
 
 <p align="center">
-  <img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/interaction.png" width="400">
+  <img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/interaction.png" width="700">
 </p>
 
 
