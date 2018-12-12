@@ -44,4 +44,4 @@ The experiments show the significant improvement of accuracy and the reduction o
 
 ### 3. Acknowledgement
 
-(Currently, part of the source code is open to the community, through which reader might be able to get the fundamental idea of Odecomp. This project begins as the course project of ELEC5470 Convex Optimization, HKUST. Thank Prof. Palomar, TA Junyan LIU and TA Ziping ZHAO a lot for their patience and time dedicated into this interesting course.)
+Currently, part of the source code is open to the community, through which reader might be able to get the fundamental idea of Odecomp. This project begins as the course project of ELEC5470 Convex Optimization, HKUST. Thank Prof. Palomar, TA Junyan LIU and TA Ziping ZHAO a lot for their patience and time dedicated into this interesting course.
