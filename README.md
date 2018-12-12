@@ -26,7 +26,14 @@ tensor decomposition, by penalizing the parts in matrices which will be truncate
    4) Incremental decomposition, inspired by incremental pruning, is presented to lower the rank of layers gradually and
 fine-tune the model along with the steps of decomposition, to obtain higher accuracy.
 
-The experiments show the significant improvement of accuracy.
+<p align="center">
+  <img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/interaction.png" width="400">
+</p>
+
+
+
+
+The experiments show the significant improvement of accuracy and the reduction of traing/fine-tuning time.
 
 <img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/truncate15.png" width="400"><img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/truncate10.png" width="400">
 
