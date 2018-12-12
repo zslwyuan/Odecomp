@@ -30,7 +30,7 @@ fine-tune the model along with the steps of decomposition, to obtain higher accu
   <img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/interaction.png" width="700">
 </p>
 
-
+### Preliminary Results of Odecomp
 
 
 The experiments show the significant improvement of accuracy and the reduction of traing/fine-tuning time.
