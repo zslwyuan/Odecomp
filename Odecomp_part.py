@@ -117,12 +117,14 @@ def mlp(step, x, y, test_x, test_y, factor=1.0, is_train = True):
    # s, u, v = tf.linalg.svd(W00)
 
     if (rank_fade>=rank_def):
-        loss = tf.reduce_mean(loss)
-
-    else:
+        loss = tf.reduce_mean(loss)    
+    # ===============================================================================
+    # ===============================================================================
+    else:  # penalize the parts which will be truncated later
         loss = (tf.reduce_mean(loss)+0.001*factor*tf.norm(tf.slice(U_t,[0,rank_fade],[784,rank_def-rank_fade]),1)+
                                    0.001*factor*tf.norm(tf.slice(V_t,[rank_def-rank_fade,0],[rank_fade,150]),1))
-
+    # ===============================================================================
+    # ===============================================================================
     if step % verbose_interval == 0:
         predict = tf.argmax(logits, 1).numpy()
         target = np.argmax(y, 1)
