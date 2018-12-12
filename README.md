@@ -11,12 +11,12 @@ of parameters.
    2) A accuracy prediction model is designed to predict the accuracy during decomposition and training. With such model,
 Odecomp can determine the proper time to stop fine-tuning and shrink the consumption of time.
 
-<img src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/exp_predict0.png" width="400"><img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/reduction.png" width="400">
+<img align="center"  src="https://github.com/zslwyuan/Odecomp/blob/master/Result_figures/exp_predict0.png" width="400">
 
    3) Rank-fading is introduced to guide the training model to obtain layers which tend to be low-rank and are friendly to
-tensor decomposition, by penalizing the parts in matrices which will be truncated for lower rank later. With this technique,
-gradient descent algorithm can be applied in the application of rank reduction. This technique can reduce the loss of
-accuracy after tensor decomposition and save the time required by fine-tuning.
+tensor decomposition, by penalizing the parts in matrices which will be truncated for lower rank later. With this technique, gradient descent algorithm can be applied in the application of rank reduction. This technique can reduce the loss of accuracy after tensor decomposition and save the time required by fine-tuning.
+
+<img align="center" src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/reduction.png" width="400">
 
    4) Incremental decomposition, inspired by incremental pruning, is presented to lower the rank of layers gradually and
 fine-tune the model along with the steps of decomposition, to obtain higher accuracy.
