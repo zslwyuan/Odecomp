@@ -2,7 +2,7 @@
 
 In this work, for online tensor decomposition, Odecomp is proposed, which will decompose the tensors before/during the procedure of training, as efforts to improve the performance of training and the accuracy of inference. For the pre-training tensor decomposition, various approaches will be evaluate and for the in-training tensor decomposition, several strategies, incremental rank reduction and rank fading, will be applied to enable gradient descent algorithm for tensor decomposition and improve the overall performance of decomposition.
 
-### Highlights of Odecomp
+### 1. Highlights of Odecomp
 
    1) Pre-training decomposition is implemented to make full use of the process of training, to widely search for proper
 solution for the decomposition. Also, this method can also reduce the training time significantly because of the reduction
@@ -30,7 +30,7 @@ fine-tune the model along with the steps of decomposition, to obtain higher accu
   <img src="https://github.com/zslwyuan/Odecomp/blob/master/Impl_figures/interaction.png" width="700">
 </p>
 
-### Preliminary Results of Odecomp
+### 2. Preliminary Results of Odecomp
 
 
 The experiments show the significant improvement of accuracy and the reduction of traing/fine-tuning time.
